@@ -18,14 +18,13 @@ app.get('*.css', function(req, res){
 	res.sendfile('public/css/'+req.path);
 });
 
-io.on('connection', function(socket){
-
-	socket.on("play", function(note){
+io.on('connection', function (socket) {
+  socket.on("play", function(note){
 		console.log(note);
 		socket.broadcast.emit("play", note);
 	});
-
 });
+    
 
 http.listen(3000, function(){
   console.log('listening on *:3000');
