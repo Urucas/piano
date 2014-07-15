@@ -1,0 +1,28 @@
+{
+  "name": "piano",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Urucas/piano",
+  "authors": [
+    "Urucas <hello@urucas.com>"
+  ],
+  "description": "Playing the piano online with socket.io",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "piano",
+    "socket.io",
+    "js",
+    "javascript",
+    "fun"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
