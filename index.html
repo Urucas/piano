@@ -174,8 +174,9 @@ menu {
 <script src="jquery.js"></script>	
 
 <script>
+console.log("aca");
   var socket = io();
-		
+		console.log(socket);
 	socket.on("play", function(note){
 		console.log(note);
 		var play = beeplay().play(note.note + note.octave, 3/4);
